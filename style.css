@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url(./images/bg_0.png) repeat scroll left top #ccc;
+}
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.b-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.b-head img{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 75%;
+}
+.b-head-middle img {
+    width: 50%;
+    margin-left: 30%;
+}
+.b-head-right img {
+    margin-left: 25%;
+}
+.menu {
+    background: #E6E6E6;
+    border-radius: 3px;
+    margin-top: -18px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.menu ul li:hover{
+    background-color: #ccc;
+}
+.sp{
+    padding: 5px 15px;
+}
+.title{
+    color: #EC8701;
+    font-size: 18.5px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    margin-top: 25px;
+}
+fieldset.sp.uf {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin-top: 15px;
+}
+legend{
+    font-size: 14px;
+    font-weight: 400;
+    color: #303030;
+}
+.smallf{
+    font-size: 10px;
+    display: inline-block;
+}
+.selectop{
+    margin-left: 15px;
+}
+select{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+label {
+    font-size: 14px;
+    font-weight: 400;
+}
+input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+fieldset.ops{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+fieldset.ops select,input.smla{
+    width: 20%;
+}
+input.radio{
+    width: auto;
+}
+input.file{
+    border: none;
+}
+input.submit{
+    width: auto;
+}
+
+
+/* flex start here */
+.formallinone{
+    display: flex;
+    gap: 100px;    
+}
+.form-one{
+    width: 50%;
+}
+.form-two{
+    width: 50%;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+input.submit{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 20px;
+    box-shadow: 1px 6px 0px 0px rgba(0,0,0,0.75);
+}
+/* dropdoown here */
+/* map is here */
+.map{
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #d3d3d3;
+}
+.map h3{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #535553;
+}
+.map iframe{
+    border-radius: 15px;
+    box-shadow: 3px 0px 29px 0px rgba(0,0,0,0.75);
+}
